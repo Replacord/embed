@@ -74,7 +74,7 @@ html.append('pass', 'inputcont')
 document.getElementById('inputcont').append(signupbtn)
 document.getElementById('inputcont').append(gotos)
 
-signupbtn.onclick = function(){register('replacord.glitch.me/')}
+signupbtn.onclick = function(){register(`https://${document.domain}/`)}
 
 gotos.onclick = function(){ window.location.href = `https://${document.domain}/forms/`}
 //////////////////////////////////////////////////////////////////////////////////////
