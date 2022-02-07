@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Dongle', sans-serif;
+  background-color: #617897;
+}
+.navbar{
+  background-color: #626D9E;
+  width: 101.3vw;
+  height: 25vh;
+  position: relative;
+  right: 2vw;
+  bottom: 2.1vh;
+}
+
+.navtitle{
+  font-family: 'Dongle', sans-serif;
+  font-size: 8vw;
+  position: relative;
+  top: 0.5vh;
+  left: 2vw;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.navbtn{
+  border-radius: 8vw;
+  border: none;
+  
+  background-color: #606FB3;
+  
+  height: 10vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 6vh;
+  
+  padding: 2vw;
+  
+  position: relative;
+  top: 1.5vh;
+  left: 2vw;
+}
+
+.navbtntxt{
+  position: relative;
+  bottom: 1.3vw;
+}
+.navbtn:hover{
+  background-color: #5E6DB4;
+}
+.navcurrentuser{
+  position: relative;
+  bottom: 1.4vh;
+  left: 2vw;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 3vw;
+}
+
+.navpfp{
+
+border-radius:10vw;
+background-repeat: no-repeat;
+background-size:5.1vw 5.1vw;
+background-color: black;  
+  
+width:5vw;
+height: 5vw;
+
+position:relative; 
+top:3.5vh;
+border:none;  
+  
+}
+
+.form-input{
+  
+  border-radius: 8vw;
+  border-color: #4F5679;
+  border-width: 0.5vw;
+  
+  background-color: #5462A2;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 2vw;
+}
+
+.form-btn{
+  
+  border-radius: 8vw;
+  border-color: #717CAD;
+  border-width: 0.5vw;
+  
+  background-color: #6070B6;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 2vw;
+}
+.form-btn-h{
+  
+  border-radius: 8vw;
+  border-color: #6C77AC;
+  border-width: 0.5vw;
+  
+  background-color: #5D6CB1;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 1vw;
+  
+  position:relative; 
+  top: 1.5vw;
+  
+}
+
+.form-btn-h:hover, .form-btn:hover{
+ 
+  border-color: #B3B6C2;
+    background-color: #8994C7;
+}
+
+.pfpedit{
+  
+border-radius:10vw;
+background-color: black;
+background-repeat: no-repeat;
+background-size:8.1vw 8.1vw;
+  
+width:8vw;
+height:8vw;
+  
+position:relative; 
+
+}
+
+/* Chat attributes */
+
+.chat-cont{
+  
+  width:90vw;
+  height:60vh;
+  overflow-y:scroll;
+  
+}
+
+.msgpfp{
+
+
+border-radius:10vw;
+background-color: black;
+background-repeat: no-repeat;
+background-size:8.1vw 8.1vw;
+  
+width:8vw;
+height:8vw;
+  
+position:relative; 
+
+
+}
+
+.msgtxt{
+  
+  width: 22ch;
+  font-size: 5ch;
+  
+}
+
+/* App page */
+
+.apps-cont{
+  
+  background-color:#727EB3;
+  width: 98vw;
+  height:70vh;
+  overflow-y:scroll;
+  
+}
+
+.app-btn{
+  
+border-radius:10vw;
+background-color: black;
+background-repeat: no-repeat;
+background-size:8.1vw 8.1vw;
+  
+width:8vw;
+height:8vw;
+  
+}
+
+.apptext{
+  
+  font-size: 7vh;
+  
+}
+
+
+.bio{
+  
+  font-size: 5vw;
+  
+}

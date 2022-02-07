@@ -1,0 +1,15 @@
+<script>
+let loginn = localStorage.getItem('uid')
+let lo = window.location
+
+if (loginn == null || loginn == undefined || loginn == ''){
+
+  lo.href = `https://${document.domain}/forms/`
+  
+}
+else{
+  
+  lo.href = `https://${document.domain}/`
+  
+}
+</script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Document
+        </title>
+    </head>
+    <body>
+        <h1>
+            Firebase
+        </h1>
+        <input id="file" name="" type="file"/>
+        <button onclick="pfpupload('file')">
+            Submit
+        </button>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCqUbFGSKEcqJvG4a_MfBuJm6ZetvCQ0zY",
+  authDomain: "replacord-2337f.firebaseapp.com",
+  databaseURL: "https://replacord-2337f-default-rtdb.firebaseio.com",
+  projectId: "replacord-2337f",
+  storageBucket: "replacord-2337f.appspot.com",
+  messagingSenderId: "151127618954",
+  appId: "1:151127618954:web:1f61b379c81d1ab3ecc473",
+  measurementId: "G-739QRN3ZTB"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script   defer src="./indexc.js"></script>
+    </body>
+</html>

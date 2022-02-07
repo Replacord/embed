@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Dongle', sans-serif;
+  background-color: #A3CAFF;
+}
+.navbar{
+  background-color: #A1B2FF;
+  width: 101.3vw;
+  height: 25vh;
+  position: relative;
+  right: 2vw;
+  bottom: 2.1vh;
+  overflow-x:hidden
+}
+
+.navtitle{
+  font-family: 'Dongle', sans-serif;
+  font-size: 8vw;
+  position: relative;
+  top: 0.5vh;
+  left: 2vw;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.navbtn{
+  border-radius: 8vw;
+  border: none;
+  
+  background-color: #859BFF;
+  
+  height: 10vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 6vh;
+  
+  padding: 2vw;
+  
+  position: relative;
+  top: 1.5vh;
+  left: 2vw;
+}
+
+.navbtntxt{
+  position: relative;
+  bottom: 1.3vw;
+}
+.navbtn:hover{
+  background-color: #859BFF;
+}
+.navcurrentuser{
+  position: relative;
+  bottom: 1.4vh;
+  left: 2vw;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 3vw;
+}
+
+.navpfp{
+
+border-radius:10vw;
+background-repeat: no-repeat;
+background-size:5.1vw 5.1vw;
+background-color: black;  
+  
+width:5vw;
+height: 5vw;
+
+position:relative; 
+top:3.5vh;
+border:none;  
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+  
+}
+
+.form-input{
+  
+  border-radius: 8vw;
+  border-color: #A1B2FF;
+  border-width: 0.5vw;
+  
+  background-color: #859BFF;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 2vw;
+}
+
+.form-btn{
+  
+  border-radius: 8vw;
+  border-color: #A1B2FF;
+  border-width: 0.5vw;
+  
+  background-color: #859BFF;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 2vw;
+}
+.form-btn-h{
+  
+  border-radius: 8vw;
+  border-color: #A1B2FF;
+  border-width: 0.5vw;
+  
+  background-color: #859BFF;
+  
+  height: 7.5vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vh;
+  
+  
+  padding: 1vw;
+  
+  position:relative; 
+  top: 1.5vw;
+  
+}
+
+.form-btn-h:hover, .form-btn:hover{
+ 
+  border-color: #EBEEFF;
+    background-color: #AEBBF6;
+}
+
+.pfpedit{
+  
+border-radius:10vw;
+background-color: black;
+background-repeat: no-repeat;
+background-size:8.1vw 8.1vw;
+  
+width:8vw;
+height:8vw;
+  
+position:relative; 
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+
+}
+
+/* Chat attributes */
+
+.chat-cont{
+  
+  width:90vw;
+  height:60vh;
+  overflow-y:scroll;
+  
+}
+
+.msgpfp{
+
+
+border-radius:10vw;
+background-color: black;
+background-repeat: no-repeat;
+background-size:8.1vw 8.1vw;
+  
+width:8vw;
+height:8vw;
+  
+position:relative; 
+  
+-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+
+}
+
+.msgtxt{
+  
+  width: 22ch;
+  font-size: 5ch;
+  
+}
+
+/* App page */
+
+.apps-cont{
+  
+  background-color:#a1b2ff;
+  width: 98vw;
+  height:70vh;
+  overflow-y:scroll;
+  
+}
+
+.app-btn{
+  
+border-radius:10vw;
+background-color: white;
+background-repeat: no-repeat;
+background-size:10vw 10vw;
+background-position: 1.5vw 1.5vw;
+  
+width:13vw;
+height:13vw;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+}
+
+.apptext{
+  
+  font-size: 7vh;
+  
+}
+
+
+.bio{
+  
+  font-size: 2vw;
+  
+}
+
+.bio-container{
+  
+  width: 30vw;
+  
+}
+
+.profilepfp{
+  
+border-color: lightgray;
+border-radius:10vw;
+border-style: solid;
+border-width: thick;
+  
+background-color: black;
+background-repeat: no-repeat;
+background-size:20vw 20vw;
+  
+width:20vw;
+height:20vw;
+  
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+  
+}
+.profileuser{
+  
+  font-size: 4vw;
+  
+}

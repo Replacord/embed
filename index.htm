@@ -1,0 +1,33 @@
+<html>
+  <head>
+  
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    
+    <title>Replacord - Home (HTML test)</title>
+    <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  </head> 
+  <body>
+    <div class="navbar">
+      <!-- Navigation Bar Title -->
+      <span class="navtitle">Replacord</span>
+      
+      <!-- Navigation Buttons -->
+      <button class="navbtn" id="home"><span class="navbtntxt">Home</span></button>
+      <button class="navbtn" id="apps"><span class="navbtntxt">Apps</span></button>
+      <button class="navbtn" id="devportal"><span class="navbtntxt">Dev Portal</span></button>
+      <button class="navbtn" id="support"><span class="navbtntxt">Support</span></button>
+      
+       <!-- Navigation Bar User Logged In-->
+      <span class="navcurrentuser" id="currentuser"></span>
+      <!-- Navigation Bar If User Is Not Logged In-->
+      <button class="navbtn" id="gotologin"><span class="navbtntxt" id="gotologin2">Login/SignUp</span></button>
+    </div>
+  <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </body>
+</html>

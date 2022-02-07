@@ -1,0 +1,18 @@
+.v-player{
+  width:711;
+  height:400;
+  
+}
+.blue-bar{
+  border-radius: 100vw;
+  background-color:darkblue;
+  height:10px;
+  width:711;
+  top:0;
+}
+.blue-energey{
+  border-radius: 100vw;
+  background-color:lightblue;
+  height:10px;
+  width:20px;
+}

@@ -1,0 +1,27 @@
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <!-- Our script must be loaded after firebase references -->
+  <script src="/js/log+reg.js"></script>
+<link rel="stylesheet" href="index.css">
+<title>Replacord - Login (HTML test)</title>
+
+<div class="center-div">
+  <h1 class="center-text">
+    Replacord Login
+  </h1>
+<h4>
+   Email
+</h4>
+<input type="email" class="form-input" type="text" id="email" placeholder="Email">
+<h4>
+   Password
+</h4>
+<input type="password" class="form-input" type="text" id="password" placeholder="Password">
+
+  <button class="form-button" onclick="login('email' ,'password', document.domain + '/demo')">login</button><button onclick="window.location.href = 'https://replacord.glitch.me/forms/SignUp.html'">go to SignUp</button></div>

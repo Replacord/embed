@@ -1,0 +1,56 @@
+<html>
+  
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  
+
+   <script type="module" src="index.js"></script>
+ <link rel="stylesheet" href="index.css">
+
+    <body>
+      <!-- Html5 Replacord Video Player -->
+      <div>
+      
+        <div class="v-player">
+       <video id="video" width="711" height="400" controls="controls" controlslist="nodownload" src="https://firebasestorage.googleapis.com/v0/b/replacord-video.appspot.com/o/videos%2Fsfjdfosdfsdfsd%2Fdoes%20not%20exist.mp4?alt=media&token=9118b2f8-1fe5-4a3b-90b3-0440bb73b7dd">
+
+  Your browser does not support HTML5 video.
+</video>
+          
+        </div>
+           </div>
+        <h1 id="videotitle">
+          This Video Does Not Exist
+        </h1>
+      <button onclick="newplayer()">New Video Player</button>
+        
+     
+      <script>
+        var vid = document.getElementById("video")
+         window.setTimeout(function(){
+vid.play()
+vid.play()
+vid.play()
+vid.play()
+vid.play()
+vid.play()
+
+           
+}, 4000)
+        
+       function newplayer(){
+         
+         const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+let videoid = urlParams.get('video')
+
+window.location.href=`https://${document.domain}/videoapp/watch/videoplayer.html?video=${videoid}`
+         
+         
+       }
+  </script>
+  </body>
+</html>
