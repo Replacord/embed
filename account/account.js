@@ -167,9 +167,9 @@ dbRef.get().then((snapshot) => {
   
   let data = snapshot.val()
   let bioo = data.bio
-  let biotext = bioo.replaceAll('domain', document.domain); 
+  let biotext = bioo.replaceAll('domain', document.domain) 
 	
-	alert(biotext)
+  alert(biotext)
   
   html.h1(html.img(data.pfp, '', 'profilepfp'))
   html.h1(data.username + "'s Profile", '', 'profileuser')
