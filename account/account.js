@@ -166,9 +166,9 @@ if(html.urlparamsis('place', 'view') == true){
 dbRef.get().then((snapshot) => {
   
   let data = snapshot.val()
+  let usersname = data.name
   let bioo = data.bio
-  let biooo = bioo.replaceAll('%domain%', document.domain)
-  let biotext = biooo.replaceALL('%url%', document.URL)
+  let biotext = bioo.replaceAll('%domain%', document.domain).replaceAll('%url%', document.URL).replaceAll('%username%', usersname)
   
   html.h1(html.img(data.pfp, '', 'profilepfp'))
   html.h1(data.username + "'s Profile", '', 'profileuser')
