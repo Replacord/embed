@@ -52,7 +52,7 @@ ref.once('value', (snapshot) => {
     
     
     let link = $.ce('a', document.body)
-$.att(link, 'href', 'https://replacord.glitch.me/videoapp/watch/?video=' + videokey) 
+$.att(link, 'href', `https://${document.domain}/videoapp/watch/?video=${videokey}`) 
     
 let thumbnail = $.ce('button', link)
 $.att(thumbnail, 'style', `background-image: url(${vidcover}); width:355; height:200; background-size: 100%;`)
