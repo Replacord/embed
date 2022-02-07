@@ -166,13 +166,15 @@ if(html.urlparamsis('place', 'view') == true){
 dbRef.get().then((snapshot) => {
   
   let data = snapshot.val()
+  let bioo = data.bio
+  let biotext = bioo.replaceAll('b', '.'); 
   
   html.h1(html.img(data.pfp, '', 'profilepfp'))
   html.h1(data.username + "'s Profile", '', 'profileuser')
   html.div('biocont', 'bio-container')
   
   let bio = document.createElement('p')
-  bio.innerHTML = data.bio
+  bio.innerHTML = biotext
   bio.setAttribute('id', 'bio')
   bio.setAttribute('class', 'bio')
   
