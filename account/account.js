@@ -168,7 +168,7 @@ dbRef.get().then((snapshot) => {
   let data = snapshot.val()
   let username= data.username
   let bioo = data.bio
-  let biotext = bioo.replaceAll('%domain%', document.domain).replaceAll('%url%', document.URL).replaceAll('%username%', username).replaceAll('%urlparams%', window.location.search).replaceAll('(', '<a href=').replaceAll(')', '>').replaceAll('[!', '').replaceAll('!]', '</a>').replaceAll( '{', '<button class="form-btn-h"><span class="navbtntxt">').replaceAll( '}', '</span></button>').replaceAll( '[/', '<button class="red-2p-tag"><span>').replaceAll( '/]', '</span></button>')
+  let biotext = bioo.replaceAll('%domain%', document.domain).replaceAll('%url%', document.URL).replaceAll('%username%', username).replaceAll('%urlparams%', window.location.search).replaceAll('(', '<a href=').replaceAll(')', '>').replaceAll('[!', '').replaceAll('!]', '</a>').replaceAll( '{', '<button class="form-btn-h"><span class="navbtntxt">').replaceAll( '}', '</span></button>').replaceAll( '[/', '<button class="red-2p-tag"><span class="navbtntxt">').replaceAll( '/]', '</span></button>')
   
   html.h1(html.img(data.pfp, '', 'profilepfp'))
   html.h1(data.username + "'s Profile", '', 'profileuser')
