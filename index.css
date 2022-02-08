@@ -152,6 +152,28 @@ border:none;
   
 }
 
+.red-2p-tag{
+  
+  border-radius: 8vw;
+  border-color: darkred;
+  border-width: 0.5vw;
+  
+  background-color: red;
+  
+  height: 6.4vh;
+  
+  text-align: horizontal;
+  font-family: 'Dongle', sans-serif;
+  font-size: 4vh;
+  
+  
+  padding: 2vw;
+  
+  position:relative; 
+  top: 0.4vw;
+  
+}
+
 .form-btn-h:hover, .form-btn:hover{
  
   border-color: #EBEEFF;
