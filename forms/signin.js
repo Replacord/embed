@@ -67,7 +67,7 @@ html.append('pass', 'inputcont')
 document.getElementById('inputcont').append(loginbtn)
 document.getElementById('inputcont').append(gotos)
 
-loginbtn.onclick = function(){login(`https://${document.domain}/`)}
+loginbtn.onclick = function(){login(`${document.domain}/`)}
 
 gotos.onclick = function(){ window.location.href = `https://${document.domain}/forms/index.htm`}
 //////////////////////////////////////////////////////////////////////////////////////
