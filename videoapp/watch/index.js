@@ -32,14 +32,13 @@ let videourl = data.videourl
 let videotitle = data.name
 
 let platform = $.getById('video')
-let e1 = $.ce("source")
+let e1 = $.ce("source", platform)
 $.att(e1, 'src', videourl)
 $.att(e1, 'type', 'video/mp4') 
   
-let e2 = $.ce("source")
+let e2 = $.ce("source", platform)
 $.att(e2, 'src', videourl)
 $.att(e2, 'type', 'video/x-matroska') 
-$.append(platform, e1, e2)
 
 let vidtitle = $.getById('videotitle')
 $.txtc(vidtitle, videotitle)
