@@ -11,9 +11,9 @@ get: function(key) {
   
 },
   
- ce: (element, appendelement) => {
+ ce: (element, element2a) => {
 let el = document.createElement(element)
-appendelement.append(el)
+element2a.append(el)
 return el
 },
 
