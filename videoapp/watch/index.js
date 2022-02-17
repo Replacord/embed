@@ -32,6 +32,7 @@ let videourl = data.videourl
 let videotitle = data.name
 
 let platform = $.getById('video')
+
 let e1 = $.ce("source", platform)
 $.att(e1, 'src', videourl)
 $.att(e1, 'type', 'video/mp4') 
