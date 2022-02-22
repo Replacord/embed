@@ -23,6 +23,12 @@ createnavbar()
 let msgscont = document.getElementById('chtcont')
 msgscont.scrollTop = msgscont.scrollHeight
 
+document.write(`
+*{
+  scroll-behavior: smooth;
+}
+`+document.body.innerHTML)
+
 // function getchat(){
 
 //   msgscont.innerHTML = ""
