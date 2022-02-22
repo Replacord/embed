@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
-
-*{
-  scroll-behavior: smooth;
-}
-
 body{
   font-family: 'Dongle', sans-serif;
   background-color: #A3CAFF;
