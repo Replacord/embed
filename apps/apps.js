@@ -26,7 +26,7 @@ function createnavbar(){
 // Page Title
 
 let pgtitle = document.createElement('title')
-    pgtitle.textContent = 'Home - Replacord'
+    pgtitle.textContent = 'Replacord - Apps'
 document.body.append(pgtitle)
 
 // Navigation Bar & Buttons
