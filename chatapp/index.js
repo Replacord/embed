@@ -1,7 +1,7 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-let server = urlParams.get('serverid')
-let currentuid = localStorage.getItem("uid")
+let server = urlParams.get('chatroom')
+let currentuid = urpPArams.get('account')
 
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig  = {
@@ -253,9 +253,6 @@ let currentpfp = snapshot.val().pfp
   let Currentuser = document.getElementById('currentuser')
 
       Currentuser.innerHTML = `<button id="account" class="navpfp" style="background-image: url('${currentpfp}'); " ></button> ${currentusername}`
-      let gotologin = document.getElementById('gtl')
-          gotologin.style.visibility = 'hidden'
-    
 })
 
 
@@ -275,9 +272,6 @@ document.getElementById('support').onclick = function(){window.location.href=`ht
 
 // Login/Register Button
 document.getElementById('gtl').onclick = function(){window.location.href=`https://${document.domain}/forms/`}
-
-// User account Button
-document.getElementById('currentuser').onclick = function(){window.location.href=`https://${document.domain}/account/?place=settings`}
 }
 
 function msgid(){ 
