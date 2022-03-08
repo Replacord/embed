@@ -183,7 +183,7 @@ let Navbar = document.createElement('nav')
 
 let Navtitle = document.createElement('span')
     Navtitle.setAttribute('class', 'navtitle')
-    Navtitle.innerHTML = "Replacord <span style='color: blue;'>Embeded</span>"
+    Navtitle.innerHTML = "Replacord <span style='color: blue;'>Embeded</span>      "
 
 let currentuser = document.createElement('span')
     currentuser.setAttribute('id', 'currentuser')
@@ -209,7 +209,7 @@ let currentpfp = snapshot.val().pfp
 
   let Currentuser = document.getElementById('currentuser')
 
-      Currentuser.innerHTML = `<button id="account" class="navpfp" style="background-image: url('${currentpfp}'); " ></button> ${currentusername}`
+      Currentuser.innerHTML = `${currentusername} <button id="account" class="navpfp" style="background-image: url('${currentpfp}'); " ></button>`
 })}
 
 function msgid(){ 
