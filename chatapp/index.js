@@ -261,6 +261,7 @@ document.getElementById('devportal').onclick = function(){window.location.href=`
 
 // Support Button
 document.getElementById('support').onclick = function(){window.location.href=`https://${document.domain}/support/`}
+}
 
 function msgid(){ 
   let e = Math.random().toString(36).substr(2, 9)
