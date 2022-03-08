@@ -220,14 +220,6 @@ let Supporttxt = document.createElement('span')
     Supporttxt.textContent = 'Support'
     Support.append(Supporttxt)
 
-let gtl = document.createElement('button')
-    gtl.setAttribute('id', 'gtl')
-    gtl.setAttribute('class', 'navbtn')
-let gtltxt = document.createElement('span')
-    gtltxt.setAttribute('class', 'navbtntxt')
-    gtltxt.textContent = 'Login/Register'
-    gtl.append(gtltxt)
-
 let currentuser = document.createElement('span')
     currentuser.setAttribute('id', 'currentuser')
     currentuser.setAttribute('class', 'navcurrentuser')
@@ -238,7 +230,7 @@ let chatcontainter = document.createElement('div')
   
   
 document.body.append(Navbar, chatcontainter)
-Navbar.append(Navtitle, Home, Apps, Devportal, Support, currentuser, gtl)
+Navbar.append(Navtitle, Home, Apps, Devportal, Support, currentuser)
 
 //Check If User is Logged In
 
@@ -269,10 +261,6 @@ document.getElementById('devportal').onclick = function(){window.location.href=`
 
 // Support Button
 document.getElementById('support').onclick = function(){window.location.href=`https://${document.domain}/support/`}
-
-// Login/Register Button
-document.getElementById('gtl').onclick = function(){window.location.href=`https://${document.domain}/forms/`}
-}
 
 function msgid(){ 
   let e = Math.random().toString(36).substr(2, 9)
