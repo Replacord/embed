@@ -195,7 +195,7 @@ let chatcontainter = document.createElement('div')
   
   
 document.body.append(Navbar, chatcontainter)
-Navbar.append(Navtitle, Home, Apps, Devportal, Support, currentuser)
+Navbar.append(Navtitle, currentuser)
 
 //Check If User is Logged In
 
