@@ -169,7 +169,7 @@ function createnavbar(){
 // Page Title
 
 let pgtitle = document.createElement('title')
-    pgtitle.textContent = 'ChatApp - Replacord'
+    pgtitle.textContent = 'Replacord Embedded'
 document.body.append(pgtitle)
 
 // Navigation Bar & Buttons
@@ -183,7 +183,7 @@ let Navbar = document.createElement('nav')
 
 let Navtitle = document.createElement('span')
     Navtitle.setAttribute('class', 'navtitle')
-    Navtitle.innerHTML = "Replacord <span style='color: blue;'>Embeded</span>      "
+    Navtitle.innerHTML = "Replacord <span style='color: blue;'>Embedded</span>      "
 
 let currentuser = document.createElement('span')
     currentuser.setAttribute('id', 'currentuser')
