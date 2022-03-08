@@ -210,7 +210,7 @@ let currentpfp = snapshot.val().pfp
   let Currentuser = document.getElementById('currentuser')
 
       Currentuser.innerHTML = `<button id="account" class="navpfp" style="background-image: url('${currentpfp}'); " ></button> ${currentusername}`
-})
+})}
 
 function msgid(){ 
   let e = Math.random().toString(36).substr(2, 9)
