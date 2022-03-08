@@ -1,7 +1,7 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 let server = urlParams.get('chatroom')
-let currentuid = urpParams.get('account')
+let currentuid = urlParams.get('account')
 
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig  = {
