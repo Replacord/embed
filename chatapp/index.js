@@ -183,42 +183,7 @@ let Navbar = document.createElement('nav')
 
 let Navtitle = document.createElement('span')
     Navtitle.setAttribute('class', 'navtitle')
-    Navtitle.textContent = 'Replacord'
-
-
-// buttons
-let Home = document.createElement('button')
-    Home.setAttribute('id', 'home')
-    Home.setAttribute('class', 'navbtn')
-let Hometxt = document.createElement('span')
-    Hometxt.setAttribute('class', 'navbtntxt')
-    Hometxt.textContent = 'Home'
-    Home.append(Hometxt)
-
-let Apps = document.createElement('button')
-    Apps.setAttribute('id', 'apps')
-    Apps.setAttribute('class', 'navbtn')
-let apptxt = document.createElement('span')
-    apptxt.setAttribute('class', 'navbtntxt')
-    apptxt.textContent = 'Apps'
-    Apps.append(apptxt)
-
-
-let Devportal = document.createElement('button')
-    Devportal.setAttribute('id', 'devportal')
-    Devportal.setAttribute('class', 'navbtn')
-let Devportaltxt = document.createElement('span')
-    Devportaltxt.setAttribute('class', 'navbtntxt')
-    Devportaltxt.textContent = 'Devportal'
-    Devportal.append(Devportaltxt)
-
-let Support = document.createElement('button')
-    Support.setAttribute('id', 'support')
-    Support.setAttribute('class', 'navbtn')
-let Supporttxt = document.createElement('span')
-    Supporttxt.setAttribute('class', 'navbtntxt')
-    Supporttxt.textContent = 'Support'
-    Support.append(Supporttxt)
+    Navtitle.innerHTML = "Replacord <span style='color: blue;'>Embeded</span>"
 
 let currentuser = document.createElement('span')
     currentuser.setAttribute('id', 'currentuser')
@@ -246,22 +211,6 @@ let currentpfp = snapshot.val().pfp
 
       Currentuser.innerHTML = `<button id="account" class="navpfp" style="background-image: url('${currentpfp}'); " ></button> ${currentusername}`
 })
-
-
-
-// Button Triggers
-// Home Button
-document.getElementById('home').onclick = function(){window.location.href=`https://${document.domain}/`}
-
-// Apps Button
-document.getElementById('apps').onclick = function(){window.location.href=`https://${document.domain}/apps/`}
-
-// devportal Button
-document.getElementById('devportal').onclick = function(){window.location.href=`https://${document.domain}/devportal/`}
-
-// Support Button
-document.getElementById('support').onclick = function(){window.location.href=`https://${document.domain}/support/`}
-}
 
 function msgid(){ 
   let e = Math.random().toString(36).substr(2, 9)
